@@ -6,11 +6,21 @@
   </head>
   <body>
 
+    <div>
+      <a href="index.html">Home</a>
+      <a href="moby_dick.html">Moby Dick</a>
+      <a href="tags.html">HTML Tags</a>
+    </div>
+    
+    <header>
     <h1> Important HTML tags</h1>
+</header>
 
     <a href="https://s3-us-west-2.amazonaws.com/learnenough/storm_trooper_tagged.jpg">
     <img src="images/storm_trooper_tagged.jpg" alt="Tagged Storm Trooper"></a>
+</header>
 
+  <div>
     <p>
         This page is designed as a quick reference for some of the common tags covered in <a href="http://learenough.com/html-tutorial"><em>Learn Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
       </p>
@@ -18,7 +28,9 @@
       <p>
         The tables below don't include all HTML tags, but they do list many of the most important ones.
       </p>
+    </div>
 
+    <div>
       <h2>Block Elemtents</h2>
       <table>
         <tr>
@@ -28,6 +40,7 @@
         </tr>
         <tr>
           <td><code>h1</code>&ndash;<code>h6</code></td>
+          <td>headings</td>
           <td>include a heading (levels 1&ndash;6)</td>
         </tr>
         <tr>
@@ -56,7 +69,9 @@
           <td>include a table data cell</td>
         </tr>
         </table>
+      </div>
 
+      <div>
         <h2>Inline Elements</h2>
 
           <table>
@@ -74,8 +89,34 @@
                 <td><code>&lt;em&gt;technical sophistication&lt;/em&gt;</code></td>
                 <td><em>technical sophistication</em></td>
               </tr>
-            </table>
-
+              <tr>
+                <td><code>strong</code></td>
+                <td>strong</td>
+                <td>make stronger text</td>
+                <td><code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code></td>
+                <td><strong>at least a billion people</strong></td>
+              </tr>
+              <tr>
+                <td><code>a</code></td>
+                <td>anchor</td>
+                <td>make hyperlink</td>
+                <td><code>&lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;.a&gt;
+                </code>
+              </td>
+              <td><a href="http://learnenough.com/">Learn Enough</a></td>
+            </tr>
+            <tr>
+              <td><code>img</code></td>
+              <td>image</td>
+              <td>include an image</td>
+              <td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+              </code>
+            </td>
+            <td><img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150"
+             alt="Michael Hartl"></td>
+          </tr>
+        </table>
+      </div>
 
     </body>
     </html>
