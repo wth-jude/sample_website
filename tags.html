@@ -3,15 +3,23 @@
   <head>
     <title>HTML Tags</title>
     <meta charset="utf-8">
+    <style type="text/css">
+<!--
+a:link { color: #0000FF; text-decoration: none}
+a:visited { color: #0000FF; text-decoration: none}
+a:hover { color: #3366CC; text-decoration: underline}
+a:active { color: #0000FF; text-decoration: none}
+-->
+</style>
   </head>
   <body>
 
-    <div>
-      <a href="index.html">Home</a>
-      <a href="moby_dick.html">Moby Dick</a>
-      <a href="tags.html">HTML Tags</a>
-    </div>
-    
+    <div style="text-align: right; ">
+      <a href="index.html"><strong>Home</strong></a>
+      <a href="tags.html" style="margin-left: 10px;"><strong>HTML tags</strong></a>
+      <a href="moby_dick.html" style="margin-left: 10px;"><strong>Moby Dick</strong></a>
+        </div>
+
     <header>
     <h1> Important HTML tags</h1>
 </header>
@@ -22,7 +30,7 @@
 
   <div>
     <p>
-        This page is designed as a quick reference for some of the common tags covered in <a href="http://learenough.com/html-tutorial"><em>Learn Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
+        This page is designed as a quick reference for some of the common tags covered in <a href="http://learnenough.com/html-tutorial" style="text-decoration: none; color: #000FF"><em>Learn Enough HTML to Be Dangerous</em></a>. In the process of making it, we'll learn how to make HTML <em>tables</em> via <code>table</code> and related tags.
       </p>
 
       <p>
@@ -113,10 +121,62 @@
               </code>
             </td>
             <td><img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150"
-             alt="Michael Hartl"></td>
+             alt="Michael Hartl" height="40px;"></td>
           </tr>
+          <tr>
+          <td><code>code</code></td>
+          <td>code</td>
+          <td>format as source code</td>
+          <td><code>&lt;code&gt;table&lt;/code&gt;</code></td>
+          <td><code>table</code><td>
+          </tr>
+        <tr>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td>define inline section in document</td>
+        <td><code>&lt;span&gt;Call me Ishmael&lt;/span&gt;</code></td>
+        <td><span>Call me Ishmael</span></td>
+        </tr>
+
         </table>
       </div>
 
+      <div style="padding: 0 10px 10px 0;">
+      <h4>Document Tags</h4>
+      <table>
+    <tr>
+      <th>Tag</th>
+      <th>Name</th>
+      <th>Purpose</th>
+    </tr>
+    <td><code>html</code></td>
+    <td>Hypertext Markup Language</td>
+    <td>a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages:</td>
+    </tr>
+
+<tr>
+  <td><code>head</code></td>
+  <td>Head</td>
+  <td>information (such as a page number) printed or placed at the top of each page of a document</td>
+</tr>
+
+<tr>
+  <td><code>body</code></td>
+  <td>Body</td>
+  <td>a mass of information within the website</td>
+</tr>
+
+<tr>
+  <td><code>title</code></td>
+  <td>Title</td>
+  <td>defines a title in the browser toolbar</td>
+  </tr>
+
+  <tr>
+  <td><code>meta</code></td>
+  <td>Metadata</td>
+  <td>it is data (information) about data</td>
+</tr>
+</table>
     </body>
     </html>
